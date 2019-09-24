@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <HorizontalScrollView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
 
@@ -16,7 +16,6 @@
             android:id="@+id/barrel_layout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
             android:orientation="horizontal">
 
         </LinearLayout>

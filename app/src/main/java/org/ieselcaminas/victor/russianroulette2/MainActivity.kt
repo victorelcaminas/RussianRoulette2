@@ -14,7 +14,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
-    val NUM_BULLETS = 6
+    val NUM_BULLETS = 100
     lateinit var bullets: Array<Button>
     var bulletPosition: Int = 0
     var gameOver = false
